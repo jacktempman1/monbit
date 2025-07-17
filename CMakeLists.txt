@@ -1,4 +1,4 @@
-# Copyright (c) 2014-2024, The Monero Project
+# Copyright (c) 2014-2024, The Monbit Project
 #
 # All rights reserved.
 #
@@ -49,7 +49,7 @@ if (IOS)
     INCLUDE(CmakeLists_IOS.txt)
 endif()
 
-project(monero)
+project(monbit)
 
 option (USE_CCACHE "Use ccache if a usable instance is found" ON)
 if (USE_CCACHE)
